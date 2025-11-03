@@ -17,6 +17,7 @@ print(type(thistuple))
 # NOT a tuple
 thistuple = ("apple")
 print(type(thistuple))
+print()
 
 ## Data Types
 
@@ -24,6 +25,10 @@ print(type(thistuple))
 tuple1 = ("apple", "banana", "cherry")
 tuple2 = (1, 5, 7, 9, 3)
 tuple3 = (True, False, False)
+t = 1, 2, 3 # We can create a tuple without parentheses, using just commas.
+# Parentheses are optional except when needed for grouping or empty tuples.
+
+print(type(t))  # <class 'tuple'>
 print(type(tuple1))
 print(type(tuple2))
 print(type(tuple3))
